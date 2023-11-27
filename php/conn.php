@@ -11,7 +11,6 @@
         die(" no se establecion una conexion ");
     }
 
-    echo "conexion exitosa"
 
 
 ?>

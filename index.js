@@ -10,7 +10,7 @@ $(document).ready(function(){
             type: "post",
             url: "./php/buscar.php",
             data: {mensaje},
-            succcess: function(respuesta){
+            success: function(respuesta){
                 console.log(respuesta)
             }
         })
