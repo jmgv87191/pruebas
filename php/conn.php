@@ -5,12 +5,12 @@
     $password = "";
     $database = "pruebas";
 
-    $conn = mysqli_connect( $servername, $user, $password, $database );
+    $conn = mysqli_connect($servername, $user, $password, $database);
 
     if (!$conn) {
-        die(" no se establecion una conexion ");
+        die("fallo la conexion".mysqli_connect_error());
     }
 
-
+    echo "conexion exitosa"
 
 ?>
